@@ -1,0 +1,17 @@
+---
+# - email <user@emnify.com>:
+#   comment: "One liner comment about the user role and responsibilities"
+#   pagerduty:
+#         enabled: <true or false>
+#         role: 'user'or 'admin'. By default, all user would get user access
+users:
+  - email: kylasam.arruchamy@emnify.de
+    comment: "Datawarehouse Engineer at Squad-Analytics"
+    opsgenie:
+      enabled: true
+      team: Squad-Analytics
+  - email: Manoj.Rege@emnify.de
+    comment: "Datawarehouse Engineer at Squad-Analytics"
+    opsgenie:
+      enabled: true
+      team: Squad-Analytics
